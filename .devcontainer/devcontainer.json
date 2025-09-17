@@ -1,4 +1,9 @@
 {
+    "image": "python:3.13-slim",
+    "build": {
+      "args": { "VARIANT": "3.11" }
+    },
+    "runArgs": [ "--platform=linux/arm64" ],
     "name": "freqtrade dev",
     // Use 'forwardPorts' to make a list of ports inside the container available locally.
     "forwardPorts": [
