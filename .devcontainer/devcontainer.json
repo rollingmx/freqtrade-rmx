@@ -1,6 +1,5 @@
 {
-    "name": "freqtrade Develop",
-    "image": "ghcr.io/freqtrade/freqtrade-devcontainer:latest",
+    "name": "freqtrade dev",
     // Use 'forwardPorts' to make a list of ports inside the container available locally.
     "forwardPorts": [
         8080
@@ -30,15 +29,6 @@
                 }
             },
             // Add the IDs of extensions you want installed when the container is created.
-            "extensions": [
-                "ms-python.python",
-                "ms-python.vscode-pylance",
-                "charliermarsh.ruff",
-                "davidanson.vscode-markdownlint",
-                "ms-azuretools.vscode-docker",
-                "vscode-icons-team.vscode-icons",
-                "github.vscode-github-actions",
-            ],
         }
     }
 }
