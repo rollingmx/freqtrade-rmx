@@ -1,5 +1,5 @@
 {
-    "image": "python:3.13-slim",
+    "image": "freqtrade-rmx-freqtrade",
     "build": {
       "args": { "VARIANT": "3.11" }
     },
